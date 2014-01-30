@@ -1,0 +1,374 @@
+/*-----MENUS CSS----*/
+
+
+body {
+margin: 0px;
+}
+
+
+
+alt {
+font-family: Arial;
+font-size: 10px;
+font-weight: normal;
+color: #999999;
+}
+
+
+img {
+border: 0;
+}
+
+
+
+/*-----MAIN MENU BOX CONTAINER----*/
+
+.menuBox {
+width: 453px;
+height: 145px; 
+}
+
+
+.company {
+width: 203px;
+height: 34px;
+position: absolute;
+top: 0px;
+left: 0px;
+overflow: hidden;
+}
+
+
+.team {
+width: 67px;
+height: 22px;
+position: absolute;
+top: 13px;
+left: 200px;
+overflow: hidden;
+}
+
+
+.partners {
+width: 85px;
+height: 18px;
+position: absolute;
+top: 51px;
+left: 68px;
+overflow: hidden;
+}
+
+
+.work {
+width: 116px;
+height: 33px;
+position: absolute;
+top: 37px;
+left: 153px;
+overflow: hidden;
+}
+
+
+.integSvcs {
+width: 270px;
+height: 23px;
+position: absolute;
+top: 69px;
+left: -2px;
+overflow: hidden;
+}
+
+
+.portfolio {
+width: 183px;
+height: 29px;
+position: absolute;
+top: 54px;
+left: 268px;
+overflow: hidden;
+}
+
+
+.givBack {
+width: 133px;
+height: 23px;
+position: absolute;
+top: 82px;
+left: 269px;
+overflow: hidden;
+}
+
+
+
+.careers {
+width: 347px;
+height: 22px;
+position: absolute;
+top: 108px;
+left: 2px;
+overflow: hidden;
+}
+
+
+.contact {
+width: 98px;
+height: 18px;
+position: absolute;
+top: 104px;
+left: 351px;
+overflow: hidden;
+}
+
+
+/*-----RESIZED MENUS----*/
+
+
+.company02 { /* small sized company menu image */
+width: 122px;
+height: 22px;
+position: absolute;
+top: 12px;
+left: 78px;
+overflow: hidden;
+}
+
+
+
+
+
+/*-----MENUS CURRENT PAGE----*/
+
+
+.teamCurrent {
+width: 108px;
+height: 33px;
+position: absolute;
+top: 0px;
+left: 198px;
+overflow: hidden;
+}
+
+
+
+/*----------PARTNERS CURRENT PAGE---------*/
+
+
+
+.menuBoxPartners { /* menubox for Partners html page ONLY */
+width: 600px; /* width must match the one specified in the iframe in partners html page */
+height: 145px; 
+position: absolute; 
+top: 297px; 
+left: 208px;
+}
+
+
+.partnersBox { /* menubox for Partners iframe MENU PAGE ONLY */
+width: 600px; 
+height: 145px;
+position: absolute;
+top: 0px;
+left: 30px;
+}
+
+
+.partnersCurrent {
+width: 173px;
+height: 29px;
+position: absolute;
+top: 38px;
+left: -20px;
+overflow: hidden;
+}
+
+
+
+/*----------PORTFOLIO CURRENT PAGE---------*/
+
+
+.portfolioCurrent {
+width: 205px;
+height: 33px;
+position: absolute;
+top: 50px;
+left: 271px;
+overflow: hidden;
+}
+
+
+.menuBoxPortfolio { /* menubox for Portfolio HTML page ONLY */
+width: 505px; /* width must match the one specified in the iframe in partners html page */
+height: 143px;
+position: absolute; 
+top: 297px; 
+left: 238px; 
+}
+
+
+.portfolioBox { /* menubox for Portfolio iframe MENU PAGE ONLY */
+width: 505px; 
+height: 135px;
+}
+
+
+
+
+/*----------INTEGRATED SERVICES CURRENT PAGE---------*/
+
+
+.integSvcsCurrent {
+width: 465px;
+height: 35px;
+position: absolute;
+top: 72px;
+left: 1px;
+}
+
+
+.portInteg { /* Portfolio menu position for IntegSvcs ONLY */
+width: 183px;
+height: 29px;
+position: absolute;
+top: 40px;
+left: 268px;
+overflow: hidden;
+}
+
+
+.givBackInteg { /* GIVING BACK menu position for IntegSvcs ONLY */
+width: 133px;
+height: 23px;
+position: absolute;
+top: 106px;
+left: 269px;
+overflow: hidden;
+}
+
+
+
+.careersInteg { /* CAREER OPPORTUNITIES menu position for IntegSvcs ONLY */
+width: 347px;
+height: 22px;
+position: absolute;
+top: 132px;
+left: 2px;
+overflow: hidden;
+}
+
+
+.contInteg { /* CONTACT US menu position for IntegSvcs ONLY */
+width: 98px;
+height: 18px;
+position: absolute;
+top: 127px;
+left: 352px;
+overflow: hidden;
+}
+
+
+
+.menuBoxInteg { /* menubox for IntegSvcs HTML page ONLY */
+width: 510px; /* width must match the one specified in the iframe in partners html page */
+height: 160px;
+position: absolute; 
+top: 297px; 
+left: 238px; 
+}
+
+
+.integSvcsBox { /* menubox for IntegSvcs iframe MENU PAGE ONLY */
+width: 460px; /* width must match the one specified in the iframe in IntegSvcs html page */
+height: 160px;
+}
+
+
+
+
+
+/*----------GIVING BACK CURRENT PAGE---------*/
+
+
+.givBackCurrent {
+width: 182px;
+height: 26px;
+position: absolute;
+top: 84px;
+left: 269px;
+overflow: hidden;
+}
+
+
+.careersGivBack { /* CAREER OPPORTUNITIES menu position for GIVING BACK page ONLY */
+width: 347px;
+height: 22px;
+position: absolute;
+top: 112px;
+left: 2px;
+overflow: hidden;
+}
+
+.contGivBack { /* CONTACT US menu position for GIVING BACK page ONLY */
+width: 98px;
+height: 18px;
+position: absolute;
+top: 108px;
+left: 352px;
+overflow: hidden;
+}
+
+
+.portfGivBack { /* PORTFOLIO menu position for GIVING BACK page ONLY */
+width: 113px;
+height: 19px;
+position: absolute;
+top: 63px;
+left: 271px;
+overflow: hidden;
+}
+
+
+
+/*----------CONTACT US CURRENT PAGE---------*/
+
+
+.contactCurrent {
+width: 232px;
+height: 33px;
+position: absolute;
+top: 108px;
+left: 220px;
+overflow: hidden;
+}
+
+
+
+.careersCont { /* CAREER OPPORTUNITIES menu position for CONTACT page ONLY */
+width: 218px;
+height: 14px;
+position: absolute;
+top: 108px;
+left: 0px;
+overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
